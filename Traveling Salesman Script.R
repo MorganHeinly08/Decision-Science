@@ -45,7 +45,7 @@ destinations <- south_final %>% pull(city_state) #extract list of city/states. o
 
 # set API key
 
-api_key <- set.api.key("AIzaSyAJ141jHQ9Qy9XE3AFy-fp4Tk5ZAKUS6hI") # api key via your google maps account (free $300 credit)
+api_key <- set.api.key("enter google cloud API Key") # api key via your google maps account (free $300 credit)
 
 # get distances in matrix format for selected cities
 
